@@ -32,9 +32,9 @@ function setup() {
 	box3 = new DustBin(1190,620,20,100);
 	box3.shapeColor = color(255,0,0);
 
-	var render = Render.create({ element: document.body, engine: engine, options: { width: 1200, height: 700, wireframes: false } }); 
-	//Render.run(render); 
+	var render = Render.create({ element: document.body, engine: engine, options: { width: 1200, height: 700, wireframes: false } });
 	Engine.run(engine);
+	//Render.run(render); }
   
 }
 
